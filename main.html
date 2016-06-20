@@ -2,24 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <title>ViaYou</title>
 </head>
 <body>
-<div class="container body">
-    <div class="row">
-        <div class="col-xs-2 left-side">
+<div class="body container">
+    <div class="row main">
+        <div class="col-xs-2 left-side main_columns">
             <h5>
                 OFFER A DELIVERY
             </h5>
             <p>Manage your luggage and take somebody else's stuff. </p>
             <p>You decide what to transport</p>
         </div>
-        <div class="col-xs-8"></div>
-        <div class="col-xs-2 right-side">
+        <div class="col-xs-8 main_columns">
+            <div class="row">
+                <div class="col-xs-5">
+                    <img class="logo margin-left" src="img/LOGO.png">
+                    <div class="line margin-left"></div>
+                    <div class="advice_filter margin-left">
+                        <ul class="ul-advices">
+                            <li><a href="#">Advices for clients</a></li>
+                            <li><a href="#">Advices for the traveler</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+
+                        <h5 class="header-filter">FILTERS</h5>
+
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <h5 class="header-category">Category</h5>
+                                <select id="categories" class="select-filters">
+                                    <option></option>
+                                    <option>Small/Objects</option>
+                                    <option>Books</option>
+                                    <option>Documents</option>
+                                    <option>Footwear/Clothing</option>
+                                    <option>Liquids/Organics</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-6">
+                                <h5>Contained in</h5>
+                                <select id="containedIn" class="select-filters">
+                                    <option></option>
+                                    <option>30cm x 1cm</option>
+                                    <option>20cm x 20cm</option>
+                                    <option>30cm x 30cm</option>
+                                    <option>40cm x 40cm</option>
+                                    <option>50cm x 50cm</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line2x margin-left"></div>
+                </div>
+                <div class="col-xs-7">
+                    <p> Do you have a question for us?</p>
+                    <h3>Connections are essential, join the community</h3>
+
+                    <h2>FIND YOUR CONNECTION</h2>
+                    <form>
+                        <div>
+                            <label for="from">From</label>
+                            <input type="text" id="from" name="from">
+                        </div>
+                        <div>
+                            <label for="to">From</label>
+                            <input type="text" id="to" name="to">
+                        </div>
+                        <h4>Date</h4>
+                        <input type="date" id="date" name="date">
+                        <input type="button" id="submit" value="SEARCH">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-2 right-side main_columns margin-left">
             <p class="language">Select Language</p>
             <h4>How does it work?</h4>
             <p class="language-first"> Every day somebody goes to that place where your family or friends are, and most
@@ -34,7 +96,7 @@
             <div class="social">
                 <h6>Follow us:</h6>
                 <ul class="social-ul">
-                    <li><a href="#"><span class="glyphicon glyphicon-apple"></span></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-apple"></span></a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-bitcoin" aria-hidden="true"></span></a></li>
                 </ul>
