@@ -2,7 +2,8 @@
 
 .left-side {
     padding-top: 120px;
-    border-right: 1px solid rgba(22, 8, 23, 0.73);
+    border-right: 1px solid rgba(22, 8, 23, 0.73) ;
+    height: 700px;
 }
 
 .left-side h5 {
@@ -19,6 +20,7 @@ p {
 
 .right-side {
     background-color: #61a1a4;
+    height: 700px;
 }
 
 .language-first {
@@ -119,13 +121,9 @@ p {
 
 /************** Body ****************/
 .body {
-    width: 1200px;
     height: 700px;
     z-index: -100;
     margin: 0 auto;
     background: transparent url("../img/Foto background.jpg") no-repeat bottom/100%;
 }
 
-.body div {
-    height: 100%;
-}
