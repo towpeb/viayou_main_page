@@ -2,7 +2,7 @@
 
 .left-side {
     padding-top: 120px;
-    border-right: 1px solid rgba(22, 8, 23, 0.73) ;
+    border-right: 1px solid rgba(22, 8, 23, 0.73);
     height: 700px;
 }
 
@@ -77,15 +77,15 @@ p {
     text-align: center;
 }
 
-.header-category{
+.header-category {
     text-align: center;
 }
 
-#categories{
+#categories {
     margin-left: 10px;
 }
 
-.select-filters{
+.select-filters {
     width: 120px;
 }
 
@@ -93,14 +93,20 @@ p {
     margin-left: -5px;
 }
 
+.ul-advices li {
+    color: white;
+}
+
 .ul-advices a {
     color: black;
+    margin-left: -8px;
+    font-size: 15px;
 }
 
 .ul-advices {
     padding-top: 40px;
     padding-left: 25px;
-    list-style: circle;
+    list-style: disc;
 }
 
 .logo {
